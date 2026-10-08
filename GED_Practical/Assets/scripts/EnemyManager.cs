@@ -19,14 +19,6 @@ namespace Chapter.Singleton
         public bool gameWin = false;
 
 
-        public GameObject player;
-        public GameObject respawnPlatform;
-
-
-        //UI
-        [SerializeField]
-        private TextMeshProUGUI conditionText;
-
 
         private void Start()
         {
