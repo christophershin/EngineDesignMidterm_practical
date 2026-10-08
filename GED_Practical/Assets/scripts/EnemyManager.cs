@@ -14,6 +14,11 @@ namespace Chapter.Singleton
     {
 
 
+        public EnemySpawner ghostEnemySpawner;
+        public EnemySpawner boxEnemySpawner;
+
+
+
         [HideInInspector]
         public bool gameEnded = false;
         public bool gameWin = false;
@@ -22,22 +27,13 @@ namespace Chapter.Singleton
 
         private void Start()
         {
-
-
+            
+            Enemy enemy = ghostEnemySpawner.SpawnEnemy();
+            Enemy box = boxEnemySpawner.SpawnEnemy();
         }
 
         private void Update()
         {
-            if (gameEnded)
-            {
-                StartCoroutine(GameEnded());
-
-            }
-            else if (gameWin)
-            {
-                conditionText.text = "YOU WIN!!";
-                NextScene();
-            }
 
         }
 

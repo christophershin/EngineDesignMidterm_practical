@@ -16,12 +16,11 @@ public class PlayerController : MonoBehaviour
     private bool isFacingRight = false;
 
     public int MaxPlayerHP = 4;
-    [HideInInspector]
-    public int PlayerHP;
+    private int PlayerHP;
     //public Slider PlayerHealthBar;
 
-    public float speed;
-    public float jumpingPower;
+    private float speed;
+    private float jumpingPower;
     private float gravityMultiplier;
     private bool doubleJumpCooldown;
     [SerializeField] private float maxGravityMulti;
@@ -200,6 +199,19 @@ public class PlayerController : MonoBehaviour
         PlayerHP -= num;
 
     }
+
+
+    public int getPlayerHealth()
+    {
+        return PlayerHP;
+    }
+
+    public float getPlayerSpeed()
+    {
+        return speed;
+    }
+
+
 
 
 }
