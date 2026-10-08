@@ -3,13 +3,13 @@ using UnityEngine;
 public abstract class Enemy : MonoBehaviour
 {
 
-    protected Rigidbody rb;
+    protected Rigidbody2D rb;
 
 
 
     protected void Start()
     {
-        rb = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
 

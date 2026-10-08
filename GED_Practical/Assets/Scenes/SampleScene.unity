@@ -119,16 +119,28 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &293592230 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1989331980133328781, guid: f9aa500179f302e4fa3b5501837e92a1, type: 3}
+--- !u!114 &293592231 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5408784190477389299, guid: f9aa500179f302e4fa3b5501837e92a1, type: 3}
   m_PrefabInstance: {fileID: 1674662223596710981}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &329255879 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6571892807414169693, guid: f8e1197b2950afe4aba2d500c4a8a1c2, type: 3}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d74f9cb3c956ebf4ea30e7dbc429b47a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BoxEnemySpawner
+--- !u!114 &329255880 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7834768380309818038, guid: f8e1197b2950afe4aba2d500c4a8a1c2, type: 3}
   m_PrefabInstance: {fileID: 7859226792067267195}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e20256d43f0984caa3d3b6f28ce4de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ghostEnemySpawner
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,6 +338,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: obstacle (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3517555925113044948, guid: ec9ae2c450072ab4c8c242c65118ceb8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -475,6 +491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: obstacle (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3517555925113044948, guid: ec9ae2c450072ab4c8c242c65118ceb8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -539,6 +559,10 @@ PrefabInstance:
     - target: {fileID: 3517555925113044948, guid: ec9ae2c450072ab4c8c242c65118ceb8, type: 3}
       propertyPath: m_Name
       value: obstacle (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3517555925113044948, guid: ec9ae2c450072ab4c8c242c65118ceb8, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -605,6 +629,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: obstacle (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3517555925113044948, guid: ec9ae2c450072ab4c8c242c65118ceb8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -665,6 +693,10 @@ PrefabInstance:
     - target: {fileID: 3517555925113044948, guid: ec9ae2c450072ab4c8c242c65118ceb8, type: 3}
       propertyPath: m_Name
       value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3517555925113044948, guid: ec9ae2c450072ab4c8c242c65118ceb8, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -731,6 +763,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: obstacle (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3517555925113044948, guid: ec9ae2c450072ab4c8c242c65118ceb8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -796,6 +832,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: obstacle (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3517555925113044948, guid: ec9ae2c450072ab4c8c242c65118ceb8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -860,6 +900,10 @@ PrefabInstance:
     - target: {fileID: 3517555925113044948, guid: ec9ae2c450072ab4c8c242c65118ceb8, type: 3}
       propertyPath: m_Name
       value: obstacle (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3517555925113044948, guid: ec9ae2c450072ab4c8c242c65118ceb8, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -978,11 +1022,11 @@ PrefabInstance:
     - target: {fileID: 7688678187697846706, guid: 8ae866539c26a5d4aa5bb8928f2f2dc7, type: 3}
       propertyPath: boxEnemySpawner
       value: 
-      objectReference: {fileID: 293592230}
+      objectReference: {fileID: 293592231}
     - target: {fileID: 7688678187697846706, guid: 8ae866539c26a5d4aa5bb8928f2f2dc7, type: 3}
       propertyPath: ghostEnemySpawner
       value: 
-      objectReference: {fileID: 329255879}
+      objectReference: {fileID: 329255880}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -53,8 +53,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
 
-        if (PlayerHP > 0)
-        {
+
             horizontal = Input.GetAxisRaw("Horizontal");
 
 
@@ -82,7 +81,7 @@ public class PlayerController : MonoBehaviour
 
 
             Flip();
-        }
+        
 
 
 
