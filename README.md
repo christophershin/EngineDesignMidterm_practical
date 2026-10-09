@@ -3,10 +3,13 @@
 Part 2:
 
 Inheritance:
+
 <img width="423" height="323" alt="image" src="https://github.com/user-attachments/assets/e4df1882-884c-46ad-b467-90d95458ecc6" />
-I made a base class of Enemy where all enemies will inherit its properties. The property shown is the Rigidbody variable, which every child will inherit. Additionally, I made the Start function protected so that every child can run that start code. This way I don't need to write that piece of code over and over again for every child enemy I want to create. 
+
+I made a base class of Enemy where all enemies will inherit its properties. The property shown is the Rigidbody variable, which every child will inherit. Additionally, I made the Start function protected so that every child can run that start code. This way, I don't need to write that piece of code over and over again for every child enemy I want to create. 
 
 Polymorphism:
+
 <img width="267" height="299" alt="image" src="https://github.com/user-attachments/assets/f934d5b1-940f-4951-ae91-4ab20d7142d7" />
 
 
