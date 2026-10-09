@@ -54,6 +54,8 @@ For the factory pattern, I made an abstract base class of EnemySpawner. Then I m
 
 
 References and Sources:
+
 Singleton and Factories: https://learn.ontariotechu.ca/courses/40729/files/6485310?module_item_id=923232
+
 The player controller script was pulled from a past fall game jam. 
 
