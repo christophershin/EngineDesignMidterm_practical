@@ -33,9 +33,13 @@ Singletons:
 <img width="479" height="487" alt="image" src="https://github.com/user-attachments/assets/21bf48ae-047d-4f6c-830d-e42ce8acda21" />
 <img width="464" height="444" alt="image" src="https://github.com/user-attachments/assets/df244f3d-87d3-4ef9-9047-66b075277c3f" />
 
-
-
+For the Singleton, I made a base singleton that checks if there are other Singletons of its type and, if there are, deletes them. I also made it so it doesn't get destroyed on load, so it persists. Then I made an EnemyManager that inherits from that singleton. For the EnemyManager, I wanted to make it so that it can spawn enemies, track how many enemies there are, as well as change the position where they could be spawned. The reason I made it this way is that I noticed that there are a total of 4 enemies in each screenshot, those enemies being of different types and positioned in different ways. 
 
 Part 4:
+Factories:
+
+<img width="427" height="148" alt="image" src="https://github.com/user-attachments/assets/ae37535f-4a54-481c-b98b-4f139f1e5ff4" />
+<img width="532" height="233" alt="image" src="https://github.com/user-attachments/assets/8caa1a0d-f9fd-407a-bff3-2acf2c9abb97" />
+
 
 
