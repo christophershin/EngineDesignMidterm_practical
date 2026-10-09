@@ -40,6 +40,7 @@ Factories:
 
 <img width="427" height="148" alt="image" src="https://github.com/user-attachments/assets/ae37535f-4a54-481c-b98b-4f139f1e5ff4" />
 <img width="532" height="233" alt="image" src="https://github.com/user-attachments/assets/8caa1a0d-f9fd-407a-bff3-2acf2c9abb97" />
+<img width="573" height="194" alt="image" src="https://github.com/user-attachments/assets/dc008b56-3b37-43c4-9395-0e3dbe69e74c" />
 
-
+For the factory pattern, I made an abstract base class EnemySpawner. Then I made two spawners inheriting from that class. 
 
