@@ -57,5 +57,5 @@ References and Sources:
 
 Singleton and Factories: https://learn.ontariotechu.ca/courses/40729/files/6485310?module_item_id=923232
 
-The player controller script was pulled from a past fall game jam. 
+The player controller script was pulled from a past game jam I attended. 
 
