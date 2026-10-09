@@ -28,6 +28,11 @@ For Abstraction, I made an abstract SpawnEnemy function inside an abstract Enemy
 
 
 Part 3:
+Singletons:
+
+<img width="479" height="487" alt="image" src="https://github.com/user-attachments/assets/21bf48ae-047d-4f6c-830d-e42ce8acda21" />
+<img width="464" height="444" alt="image" src="https://github.com/user-attachments/assets/df244f3d-87d3-4ef9-9047-66b075277c3f" />
+
 
 
 
