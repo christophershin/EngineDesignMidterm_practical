@@ -33,7 +33,7 @@ Singletons:
 <img width="479" height="487" alt="image" src="https://github.com/user-attachments/assets/21bf48ae-047d-4f6c-830d-e42ce8acda21" />
 <img width="464" height="444" alt="image" src="https://github.com/user-attachments/assets/df244f3d-87d3-4ef9-9047-66b075277c3f" />
 
-For the Singleton, I made a base singleton that checks if there are other Singletons of its type and, if there are, deletes them. I also made it so it doesn't get destroyed on load, so it persists. Then I made an EnemyManager that inherits from that singleton. For the EnemyManager, I wanted to make it so that it can spawn enemies, track how many enemies there are, as well as change the position where they could be spawned. The reason I made it this way is that I noticed that there are a total of 4 enemies in each screenshot, those enemies being of different types and positioned in different ways. 
+For the Singleton, I made a base singleton that checks if there are other Singletons of its type and, if there are, deletes them. I also made it so it doesn't get destroyed on load, so it persists. Then I made an EnemyManager that inherits from that singleton. For the EnemyManager, I wanted to make it so that it can spawn enemies, track how many enemies there are, as well as change the position where they could be spawned. The reason I made it this way is that I noticed that there are a total of 4 enemies in each screenshot, those enemies being of different types and positioned in different ways. Therefore, there could be a global object that can control what is spawned and where depending on some condition. 
 
 Part 4:
 Factories:
@@ -42,5 +42,5 @@ Factories:
 <img width="532" height="233" alt="image" src="https://github.com/user-attachments/assets/8caa1a0d-f9fd-407a-bff3-2acf2c9abb97" />
 <img width="573" height="194" alt="image" src="https://github.com/user-attachments/assets/dc008b56-3b37-43c4-9395-0e3dbe69e74c" />
 
-For the factory pattern, I made an abstract base class EnemySpawner. Then I made two spawners inheriting from that class. 
+For the factory pattern, I made an abstract base class of EnemySpawner. Then I made two spawners inheriting from that class. I then made a base class of Enemy and two scripts inheriting from it which is shown from the images before. One was ghostEnemy, and the other was boxEnemy. This was done this way so that you can call the spawnEnemy function without knowing or having to know what type is passed. This is useful for this game, as there are different types of enemies that can be spawned in different environments or maybe spawned under some condition. 
 
