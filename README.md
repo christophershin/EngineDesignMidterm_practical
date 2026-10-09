@@ -22,8 +22,9 @@ For Encapsulation, I made a simple getPlayerSpeed method that returns the player
 
 Abstraction:
 
-<img width="369" height="58" alt="image" src="https://github.com/user-attachments/assets/e9c83080-06fa-4d59-a1ed-dc44995d7b87" />
+<img width="340" height="74" alt="image" src="https://github.com/user-attachments/assets/e26e7100-ecd1-4c04-a141-cc7e7d988990" />
 
+For Abstraction, I made an abstract SpawnEnemy function inside an abstract EnemySpawner class. This is so that the function is hidden from the user, as well as so that the script inheriting from it can access it. 
 
 
 Part 3:
