@@ -4,7 +4,7 @@ using static UnityEditor.Searcher.SearcherWindow.Alignment;
 public class SnakeMovement : MonoBehaviour
 
 {
-
+    public GameObject snakebody;
     public float moveSpeed = 1f;
 
     private void Update()
@@ -20,5 +20,8 @@ public class SnakeMovement : MonoBehaviour
         transform.position += moveDirection * moveSpeed * Time.deltaTime;
 
     }
+
+
+
 
 }

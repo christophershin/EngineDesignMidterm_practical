@@ -119,6 +119,50 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &278290208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 278290209}
+  - component: {fileID: 278290210}
+  m_Layer: 0
+  m_Name: SnakeLength
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &278290209
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278290208}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.66749, y: -0.47785, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &278290210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278290208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4a3b78b12f25fa48962d19c8e71466e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SnakelLengthManager
 --- !u!1 &676710498
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,6 +488,10 @@ PrefabInstance:
       propertyPath: moveSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 3873137885062088313, guid: ba46bef6462fb414ba1457e8ece1bf31, type: 3}
+      propertyPath: snakebody
+      value: 
+      objectReference: {fileID: 7841122443829985354, guid: 760f0413c2ed0b74aa8a53ef9c84f597, type: 3}
     - target: {fileID: 8404117305093551176, guid: ba46bef6462fb414ba1457e8ece1bf31, type: 3}
       propertyPath: m_Name
       value: Snake
@@ -462,3 +510,4 @@ SceneRoots:
   - {fileID: 1960675437}
   - {fileID: 1784909141}
   - {fileID: 8723958498078157984}
+  - {fileID: 278290209}
