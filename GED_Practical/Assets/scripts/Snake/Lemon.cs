@@ -7,7 +7,7 @@ public class Leomon : Fruit
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        name = "Lemon";
+        Fruitname = "Lemon";
     }
 
     // Update is called once per frame
@@ -18,6 +18,6 @@ public class Leomon : Fruit
 
     public override void printName()
     {
-        Debug.Log(name);
+        Debug.Log(Fruitname);
     }
 }
