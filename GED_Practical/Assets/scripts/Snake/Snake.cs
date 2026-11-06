@@ -7,6 +7,16 @@ public class SnakeMovement : MonoBehaviour
     public GameObject snakebody;
     public float moveSpeed = 1f;
 
+
+
+    private void Start()
+    {
+        GameObject b = Instantiate(snakebody, transform);
+        b.GetComponent<SnakeBody>().parent = this.gameObject;
+    }
+
+
+
     private void Update()
 
     {
