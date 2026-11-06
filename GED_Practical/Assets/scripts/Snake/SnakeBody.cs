@@ -15,6 +15,11 @@ public class SnakeBody : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector3.Lerp(transform.position, parent.transform.position, 0.3f);
+
+       if(Vector2.Distance(transform.position, parent.transform.position) > 1)
+        {
+            transform.position = Vector3.Lerp(transform.position, parent.transform.position, 5 * Time.deltaTime);
+        }
+        
     }
 }
